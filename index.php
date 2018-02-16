@@ -6,7 +6,45 @@
 
 	<title></title>
 
-	<link href="style.css" rel="stylesheet" type="text/css" media ="screen"> 
+	<style type="text/css">
+		
+		#postalcode-map {
+			float: left;
+			width: 40%;
+			height: 65px;
+			text-align: left;
+		}
+
+		#postalcode-mapa img {
+			margin: 0px;
+		}
+
+		#postalcode-display {
+			float: left;
+			width: 60%;
+			height: 65px;
+			text-align: left;
+		}
+
+		#postalcode-display p.button {
+			display: inline-block;
+			width: 13px;
+			margin: 15px auto;
+			padding: 3px 12px;
+			font-size: 1.6em;
+			font-weight: bold;
+			border: 1px solid #ACDD4A;
+			background-repeat-x: repeat;
+			background-repeat-y: no-repeat;
+			background-attachment: initial;
+			background-position-x: 50%;
+			background-position-y: 50%;
+			background-origin: initial;
+			background-clip: initial;
+			background-color: #6EAC2C;
+		} 
+		
+	</style>
 
 </head>
 
@@ -47,7 +85,7 @@
 </body>
 </html>
 
-<script type="text/javascript" src="screenkbd.js"></script>
+<script type="text/javascript" src="src/screenkbd.js"></script>
 
 
 
